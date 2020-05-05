@@ -1,0 +1,80 @@
+/* INIZIO REGOLE GENERALI  ELEMENTI */
+body {
+  padding-top: 70px;
+}
+section {
+  padding: 32px 0;
+}
+/* FINE REGOLE GENERALI ELEMENTI */
+
+/* INIZIO REGOLE GENERALI BASE */
+.ms-section-primary {
+  background-color: #1abc9c;
+  color: white;
+}
+.ms-section-secondary {
+  color: #2c3e50;
+}
+.ms-section-secondary .title {
+  color: #333;
+}
+/* INIZIO REGOLE GENERALI BASE */
+
+/* start component */
+.ms-navbar {
+  background-color: #2c3e50;
+  height: 70px;
+}
+.ms-jumbo {
+  text-align: center;
+  padding: 32px 0;
+}
+/* end component */
+
+/* start header  */
+header {
+  color: white;
+}
+/* end header  */
+
+/* start portfolio  */
+.ms-portfolio-item {
+  background-color: #bb4b62;
+  height: 300px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+/* end portfolio  */
+
+/* start about  */
+.ms-wrapper {
+  width: 60%;
+  margin: 0 auto;
+}
+/* end about  */
+
+/* start contact  */
+.ms-button {
+  background-color: #1abc9c;
+  color: white;
+  border: none;
+}
+/* end contact  */
+
+/* start footer */
+footer {
+  color: white;
+}
+.ms-footer {
+  background-color: #3a546d;
+}
+footer .copyright {
+  background-color: #2c3e50;
+}
+/* end footer */
+
+@media screen and (min-width: 760px) {
+  .ms-jumbo {
+    padding: 48px 0;
+  }
+}
