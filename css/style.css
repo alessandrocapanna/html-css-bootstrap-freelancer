@@ -18,6 +18,9 @@ section {
 .ms-section-secondary .title {
   color: #333;
 }
+.ms-divider {
+  margin-bottom: 30px;
+}
 .ms-divider span {
   margin: 0 -4px;
 }
@@ -27,6 +30,9 @@ section {
 .ms-divider i {
   font-size: 20px;
   padding: 0 10px;
+}
+.title {
+  margin-bottom: 30px;
 }
 /* INIZIO REGOLE GENERALI BASE */
 
@@ -102,6 +108,11 @@ header .row i {
   width: 60%;
   margin: 0 auto;
 }
+#about button {
+  border: 1px solid white;
+  margin-top: 20px;
+}
+
 /* end about  */
 
 /* start contact  */
@@ -110,6 +121,14 @@ header .row i {
   color: white;
   border: none;
 }
+#contact form input ,
+#contact form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
 /* end contact  */
 
 /* start footer */
@@ -117,9 +136,29 @@ footer {
   color: white;
 }
 .ms-footer {
+  padding: 30px 0;;
   background-color: #3a546d;
 }
+.ms-footer li {
+  margin: 20px 0;
+}
+.ms-footer li a {
+  border-radius: 50%;
+  padding: 20px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  color: white;
+}
+.ms-footer li a i {
+  width: 18px;
+  height: 18px;
+}
+footer p a {
+  color: #1db698;
+}
 footer .copyright {
+  line-height: 80px;
   background-color: #2c3e50;
 }
 /* end footer */
