@@ -18,31 +18,82 @@ section {
 .ms-section-secondary .title {
   color: #333;
 }
+.ms-divider span {
+  margin: 0 -4px;
+}
+.ms-divider .ms-linea {
+  display: inline-block;
+}
+.ms-divider i {
+  font-size: 20px;
+  padding: 0 10px;
+}
 /* INIZIO REGOLE GENERALI BASE */
 
-/* start component */
-.ms-navbar {
-  background-color: #2c3e50;
-  height: 70px;
-}
-.ms-jumbo {
-  text-align: center;
-  padding: 32px 0;
-}
-/* end component */
 
 /* start header  */
 header {
   color: white;
 }
+header .row p {
+  font-size: 22px;
+  font-weight: bold;
+}
+header .row a {
+  color: white;
+}
+header .row > * {
+  line-height: 70px;
+}
+header .row i {
+  border-radius: 3px;
+  border: 1px solid lightgrey;
+  padding: 5px 10px;;
+  font-size: 20px;
+}
+.ms-navbar {
+  background-color: #2c3e50;
+  height: 70px;
+}
 /* end header  */
+
+/* start jumbo  */
+.ms-jumbo {
+  padding: 32px 0;
+}
+.ms-avatar img {
+  height: 300px;
+}
+.ms-jumbo .title h2 {
+  font-size: 20px;
+  font-weight: 400;
+}
+/* end jumbo  */
 
 /* start portfolio  */
 .ms-portfolio-item {
   background-color: #bb4b62;
-  height: 300px;
+  height: 200px;
   border-radius: 5px;
   margin-bottom: 30px;
+}
+.ms-portfolio-item img {
+  height: 200px;
+}
+#portfolio .container .row :nth-child(2) .ms-portfolio-item {
+  background-color: #1fa4b6;
+}
+#portfolio .container .row :nth-child(3) .ms-portfolio-item {
+  background-color: #130f0f;
+}
+#portfolio .container .row :nth-child(4) .ms-portfolio-item {
+  background-color: #1d82c1;
+}
+#portfolio .container .row :nth-child(5) .ms-portfolio-item {
+  background-color: #1037b5;
+}
+#portfolio .container .row :nth-child(6) .ms-portfolio-item {
+  background-color: #cdb2a3;
 }
 /* end portfolio  */
 
